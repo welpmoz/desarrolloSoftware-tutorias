@@ -4,9 +4,9 @@ body{
 }
 
 table{
-  background-color: white;
   text-align: left;
   border-collapse: collapse;
+  width: 100%;
 }
 
 th, td{
@@ -16,6 +16,7 @@ th, td{
 thead{
   background-color: #001277;
   border-bottom: solid 5px #f4ff54;
+  color: white;
 }
 
 tr:nth-child(even){
